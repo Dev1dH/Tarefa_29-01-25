@@ -13,8 +13,6 @@
 
 int led_active = 0;     // Inicia o contador de leds ativos em 0
 
-absolute_time_t turn_off_time;  // Variável para armazenar o tempo em que o LED deve ser desligado (não utilizada neste código).
-
 // Função de callback para desligar o LED verde após 3s
 int64_t turn_off_callback(alarm_id_t id, void *user_data) {
     
