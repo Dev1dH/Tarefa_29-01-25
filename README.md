@@ -3,7 +3,7 @@
 Com emprego da função add_repeating_timer_ms(), presente na ferramenta Pico SDK, foi projetado com um semáforo com temporização de 3 segundos, ou seja, cada LED fica aceso por 3 segundos e em seguida é apagado, de maneira alternada entre os LEDs azul, vermelho e verde.
 ## Instruções de uso
 Com a placa conectada a entrada USB do computador, ative o bootsel da placa. Compile o projeto no VSCode e rode o programa (run).
-Com todo os LEDs apagados, inicialmente, após 3 segundo o primeiro LEDs é aceso, apagando-se e em seguida acendendo o próximo, repetindo este ciclo periódico.
+Com todo os LEDs apagados, inicialmente, após 3 segundo o primeiro LEDs é aceso, apagando-se e em seguida acendendo o próximo, repetindo este ciclo periódico. É exibida uma mensagem informando quando LED está aceso no momento.
 
 Vídeo de demonstração: https://youtu.be/apxjOKTaPKU
 
